@@ -21,6 +21,23 @@ delete x.name;
 ```
 Now what's the value returned by x.name?
 
+Now add the following code:
+
+```javascript
+f.prototype.say_my_name = function() { return this.name; };
+```
+
+What do the following return?
+
+```javascript
+f.prototype.say_my_name();
+
+x.say_my_name();
+
+b = f.prototype.say_my_name;
+b();
+```
+
 http://dmitrysoshnikov.com/ecmascript/javascript-the-core/
 
 Given the following code:
