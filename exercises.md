@@ -5,10 +5,10 @@
 
 - Write a range(start, length) array generating function
 
-- Write a forEach() function
+- Write a forEach(array, fn) function
 - Use forEach() to return the sum an array of numbers
 
-- Write a map() function
+- Write a map(fn, array) function
 - Use map to round an array of numbers
 - Use map to square an array of numbers
 
