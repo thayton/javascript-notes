@@ -12,11 +12,15 @@
 - Use map to round an array of numbers
 - Use map to square an array of numbers
 
+- Write a filter(array, predicate) function that returns a new array containing only elements
+  that returned true for predicate()
+
+- Write a zip(array1, array2, combine) function that creates a new array from array1 and array2 
+  using combine(array1_elem, array2_elem)
+
 - Write a reduce() function
 - Use the reduce function to sum an array of numbers
 - Write a countZeros() function that counts the number of zeroes in an array using reduce()
-
-- Write a zip() function
 
 - Write a concatMap() function
 
